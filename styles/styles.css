@@ -1,7 +1,6 @@
 /* Fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Caveat&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Sacramento&family=BioRhyme:wght@300&family=Caveat&display=swap");
 /* End Of Font */
 
 body {
@@ -26,14 +25,22 @@ a:hover {
     font-size: 2rem;
 }
 
-p {
-    display: inline;
-}
-
 h1 {
-    font-family: "Caveat", cursive;
+    font-family: "Sacramento", cursive ;
+    font-size: 5rem;
+    line-height: 0.8;
 }
 
+h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 2.5rem;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
 
 /* ----------------------Header ---------------------------------*/
 
@@ -56,16 +63,14 @@ h1 {
     margin-left: 50px;
 }
 
-
 /* End of Header */
-
 
 /* -------------------Side bar--------------------------- */
 
 button {
     position: fixed;
     /* Position them relative to the browser window */
-    right: -20px;
+    right: -60px;
     /* Position them outside of the screen */
     transition: 0.7s;
     /* Add transition on hover */
@@ -97,7 +102,6 @@ button:hover {
     text-align: left;
 }
 
-
 /* The about link: 20px from the top with a green background */
 
 #fb {
@@ -114,8 +118,7 @@ button:hover {
     background-color: #222;
 }
 
-#insta:hover,
-#mail:hover {
+#insta:hover, #mail:hover {
     width: 150px;
 }
 
@@ -129,48 +132,42 @@ button:hover {
     background-color: #555;
 }
 
-#fb:hover,
-#insta:hover,
-#github:hover,
-#mail:hover {
+#fb:hover, #insta:hover, #github:hover, #mail:hover {
     color: #000;
     background-color: slategray;
 }
 
-
 /* End Of Side bar */
 
-
 /* ----------------------Middle  */
-
-.container-top {
-    text-align: center;
-    font-family: "Open Sans" sans-serif;
-    position: relative;
-    top: 80px;
-    font-size: 2.3rem;
-}
 
 .top-para {
     margin: 20px;
     display: inline-block;
 }
 
-.A {
+/* rotatorword */
+
+/* .A {
     position: absolute;
+    font-size: 5rem;
 }
 
 #changingword {
     color: forestgreen;
     position: absolute;
     border-bottom: 4px solid;
-    left: 50%;
-    margin-left: 3rem;
+    margin-left: 1rem;
+} */
+
+.container {
+    margin-top: 7rem;
+    margin-left: 30px;
 }
 
+.first-colm {}
 
 /* End of Middle section */
-
 
 /* Media Query */
 
@@ -216,7 +213,7 @@ button:hover {
     button {
         position: fixed;
         /* Position them relative to the browser window */
-        right: -27px;
+        right: -70px;
         /* Position them outside of the screen */
         transition: 0.7s;
         /* Add transition on hover */
@@ -232,12 +229,12 @@ button:hover {
         font-size: 12px;
     }
     button:hover {
+        right: 1px;
         /* On mouse-over, make the elements appear as they should */
         color: antiquewhite;
-        padding: 15px;
+        padding: 12px;
         /* 15px padding */
-        font-size: 12px;
-        width: 170px;
+        font-size: 15px;
         text-align: left;
     }
 }
