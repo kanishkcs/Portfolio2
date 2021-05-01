@@ -1,275 +1,244 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Caveat&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Caveat&display=swap");
 
 /* End Of Font */
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #171717;
-  line-height: 1.6;
-  color:white;
+    font-family: "Montserrat", sans-serif;
+    background-color: #171717;
+    line-height: 1.6;
+    color: white;
 }
 
 a {
-  text-decoration: none;
-  color: white;
-  transition-delay: 2ms;
-  font-size: 1.3rem;
-}
-
-a:hover {
-  color: burlywood;
-  border-bottom: 4px solid;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-  font-size: 2rem;
-}
-
-
-p{
-  display: inline;
-}
-
-h1{
-  font-family: 'Caveat', cursive; 
-}
-
-/* ----------------------Header ---------------------------------*/
-.navbar {
-  display: block;
-  width: 100%;
-  height: 80px;
-}
-.menu {
-  display: flex;
-  list-style: none;
-}
-
-.nav-item {
-  color: white;
-  position: relative;
-  left: 58%;
-  margin-top: 20px;
-  margin-left: 50px;
-}
-/* End of Header */
-
-/* -------------------Side bar--------------------------- */
-
-
-button {
-  position: fixed; /* Position them relative to the browser window */
-  left: -60px; /* Position them outside of the screen */
-  transition: 0.7s; /* Add transition on hover */
-  margin-top: 200px;
-  padding: 25px; /* 15px padding */
-  width: 7.188rem;
-  text-decoration: none; /* Remove underline */
-  font-size: 0px;
-  color: white;
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  text-align: right;
- 
-}
-
-i {
-  font-size: 20px;
-}
-
-button:hover {
-  left: 3px; /* On mouse-over, make the elements appear as they should */
-  color: antiquewhite;
-  padding: 15px; /* 15px padding */
-  font-size: 20px;
-  width: 170px;
-  text-align: left;
-  
-
-}
-
-/* The about link: 20px from the top with a green background */
-
-#fb {
-  top: 50px;
-  background-color: black;
-}
-
-#fb:hover {
-  width: 120px;
-  
-}
-
-#insta {
-  top: 130px;
-  background-color: #222;
-}
-
-#insta:hover,
-#mail:hover {
-  width: 150px;
-}
-
-#github {
-  top: 210px;
-  background-color: #444;
-}
-
-#mail {
-  top: 290px;
-  background-color: #555;
-}
-#fb:hover ,#insta:hover ,#github:hover ,#mail:hover{
-  color: #000;
-  background-color:slategray;
-}
-
-/* End Of Side bar */
-
-/* ----------------------Middle  */
-
-.container-top {
-  text-align: center;
-  font-family: "Open Sans" sans-serif;
-  position: relative;
-  top: 80px;
-  font-size: 2.3rem;
-  
-}
-.top-para {
-  margin: 20px;
-  display: inline-block;
-}
-
-.A{
-
-  position: absolute;
-}
-
-
-#changingword {
-  color:forestgreen;
-  position: absolute;
-  border-bottom: 4px solid;
-  left: 50%;
-  margin-left: 3rem;
-  
-}
-/* End of Middle section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Query */
-
-
-
-
-@media (max-width: 480px) {
- 
-  .container-top {
-    text-align: center;
-    font-size: 10px;
-    top: 10px;
-    color: aqua;
-  }
-  .fixed {
-    position: fixed;
-    left: 42%;
-  }
-  
-  #changingword {
-    color:forestgreen;
-    position: absolute;
-    border-bottom: 4px solid;
-    margin-left: 1rem;
-    
-  }
-
-
-
-
-
-
-  a {
     text-decoration: none;
     color: white;
     transition-delay: 2ms;
-    font-size: 0.3rem;
-  }
+    font-size: 1.3rem;
+}
 
-  a:hover {
+a:hover {
     color: burlywood;
     border-bottom: 4px solid;
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-    font-size: 0.5rem;
-  }
-  /* ----------------------Header ---------------------------------*/
-  
+    font-size: 2rem;
+}
 
-  .nav-item {
+p {
+    display: inline;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+}
+
+
+/* ----------------------Header ---------------------------------*/
+
+.navbar {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
     color: white;
     position: relative;
-    left: 20%;
+    left: 58%;
     margin-top: 20px;
     margin-left: 50px;
-  }
-
-  /* Side  Bar ** -------------------Side bar--------------------------- */
+}
 
 
-  button {
-    position: fixed; /* Position them relative to the browser window */
-    left: -60px; /* Position them outside of the screen */
-    transition: 0.7s; /* Add transition on hover */ 
-    text-decoration: none; /* Remove underline */
+/* End of Header */
+
+
+/* -------------------Side bar--------------------------- */
+
+button {
+    position: fixed;
+    /* Position them relative to the browser window */
+    right: -20px;
+    /* Position them outside of the screen */
+    transition: 0.7s;
+    /* Add transition on hover */
+    margin-top: 200px;
+    padding: 25px;
+    /* 15px padding */
+    width: 7.188rem;
+    text-decoration: none;
+    /* Remove underline */
     font-size: 0px;
     color: white;
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-    text-align: right;
-   
-  }
-  
-  i {
-    font-size: 12px;
-  }
-  
-  button:hover {
-    left: 3px; /* On mouse-over, make the elements appear as they should */
+    border-radius: 0 5px 5px 0;
+    /* Rounded corners on the top right and bottom right side */
+    text-align: left;
+}
+
+i {
+    font-size: 20px;
+}
+
+button:hover {
+    right: 3px;
+    /* On mouse-over, make the elements appear as they should */
     color: antiquewhite;
-    padding: 15px; /* 15px padding */
-    font-size: 12px;
+    padding: 15px;
+    /* 15px padding */
+    font-size: 20px;
     width: 170px;
     text-align: left;
-    
-  
-  }
-  
+}
 
 
+/* The about link: 20px from the top with a green background */
+
+#fb {
+    top: 50px;
+    background-color: black;
+}
+
+#fb:hover {
+    width: 120px;
+}
+
+#insta {
+    top: 130px;
+    background-color: #222;
+}
+
+#insta:hover,
+#mail:hover {
+    width: 150px;
+}
+
+#github {
+    top: 210px;
+    background-color: #444;
+}
+
+#mail {
+    top: 290px;
+    background-color: #555;
+}
+
+#fb:hover,
+#insta:hover,
+#github:hover,
+#mail:hover {
+    color: #000;
+    background-color: slategray;
+}
+
+
+/* End Of Side bar */
+
+
+/* ----------------------Middle  */
+
+.container-top {
+    text-align: center;
+    font-family: "Open Sans" sans-serif;
+    position: relative;
+    top: 80px;
+    font-size: 2.3rem;
+}
+
+.top-para {
+    margin: 20px;
+    display: inline-block;
+}
+
+.A {
+    position: absolute;
+}
+
+#changingword {
+    color: forestgreen;
+    position: absolute;
+    border-bottom: 4px solid;
+    left: 50%;
+    margin-left: 3rem;
+}
+
+
+/* End of Middle section */
+
+
+/* Media Query */
+
+@media (max-width: 480px) {
+    .container-top {
+        text-align: center;
+        font-size: 10px;
+        top: 10px;
+        color: aqua;
+    }
+    .fixed {
+        position: fixed;
+        left: 42%;
+    }
+    #changingword {
+        color: forestgreen;
+        position: absolute;
+        border-bottom: 4px solid;
+        margin-left: 1rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        transition-delay: 2ms;
+        font-size: 0.3rem;
+    }
+    a:hover {
+        color: burlywood;
+        border-bottom: 4px solid;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+        font-size: 0.5rem;
+    }
+    /* ----------------------Header ---------------------------------*/
+    .nav-item {
+        color: white;
+        position: relative;
+        left: 20%;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    /* Side  Bar ** -------------------Side bar--------------------------- */
+    button {
+        position: fixed;
+        /* Position them relative to the browser window */
+        left: -60px;
+        /* Position them outside of the screen */
+        transition: 0.7s;
+        /* Add transition on hover */
+        text-decoration: none;
+        /* Remove underline */
+        font-size: 0px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        /* Rounded corners on the top right and bottom right side */
+        text-align: right;
+    }
+    i {
+        font-size: 12px;
+    }
+    button:hover {
+        left: 3px;
+        /* On mouse-over, make the elements appear as they should */
+        color: antiquewhite;
+        padding: 15px;
+        /* 15px padding */
+        font-size: 12px;
+        width: 170px;
+        text-align: left;
+    }
 }
