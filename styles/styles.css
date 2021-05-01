@@ -237,6 +237,7 @@ button:hover {
         padding: 15px;
         /* 15px padding */
         font-size: 12px;
+        width: 170px;
         text-align: left;
     }
 }
