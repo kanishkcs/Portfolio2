@@ -137,15 +137,15 @@ button:hover {
   display: inline-block;
 }
 .fixed {
-  position: fixed;
-  left: 43%;
+  
+  
 }
 
 #changingword {
   color:fuchsia;
-  position: fixed;
-  left: 45%;
-  border-bottom: 4px solid;
+  
+  
+  
 }
 /* End of Middle section */
 
