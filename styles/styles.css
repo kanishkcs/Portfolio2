@@ -1,7 +1,7 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Caveat&display=swap');
+
 
 /* End Of Font */
 
@@ -31,6 +31,11 @@ a:hover {
 p{
   display: inline;
 }
+
+h1{
+  font-family: 'Caveat', cursive; 
+}
+
 /* ----------------------Header ---------------------------------*/
 .navbar {
   display: block;
