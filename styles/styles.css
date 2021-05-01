@@ -5,20 +5,21 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #171717;
+    
     line-height: 1.6;
-    color: white;
+    background-image: url("/images/background.jpg") ;
+   
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #000;
     transition-delay: 2ms;
     font-size: 1.3rem;
 }
 
 a:hover {
-    color: burlywood;
+    color: #e23e57;
     border-bottom: 4px solid;
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
@@ -51,23 +52,28 @@ p{
 }
 
 .menu {
-    display: flex;
+    display: inline;
     list-style: none;
 }
 
 .nav-item {
-    color: white;
+    
     position: relative;
     left: 58%;
     margin-top: 20px;
     margin-left: 50px;
 }
 
+.eye-trcker{
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    }
 /* End of Header */
 
 /* -------------------Side bar--------------------------- */
 
-button {
+.sidebar btn {
     position: fixed;
     /* Position them relative to the browser window */
     right: -60px;
@@ -91,7 +97,7 @@ i {
     font-size: 20px;
 }
 
-button:hover {
+.sidebar btn:hover {
     right: 3px;
     /* On mouse-over, make the elements appear as they should */
     color: antiquewhite;
@@ -146,26 +152,13 @@ button:hover {
     display: inline-block;
 }
 
-/* rotatorword */
 
-/* .A {
-    position: absolute;
-    font-size: 5rem;
-}
-
-#changingword {
-    color: forestgreen;
-    position: absolute;
-    border-bottom: 4px solid;
-    margin-left: 1rem;
-} */
 
 .container {
-    margin-top: 7rem;
+    margin-top: 9rem;
     margin-left: 30px;
 }
 
-.first-colm {}
 
 /* End of Middle section */
 
