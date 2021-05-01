@@ -137,13 +137,18 @@ button:hover {
   display: inline-block;
 }
 
+.A{
+
+  position: absolute;
+}
 
 
 #changingword {
-  color:fuchsia;
+  color:forestgreen;
   position: absolute;
   border-bottom: 4px solid;
-  margin-left: 1rem;
+  left: 50%;
+  margin-left: 3rem;
   
 }
 /* End of Middle section */
@@ -193,10 +198,11 @@ button:hover {
   }
   
   #changingword {
-    color:fuchsia;
-    position: fixed;
-    left: 45%;
+    color:forestgreen;
+    position: absolute;
     border-bottom: 4px solid;
+    margin-left: 1rem;
+    
   }
 
 

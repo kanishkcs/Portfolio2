@@ -5,7 +5,6 @@
         'Designer',
         'Developer',
         'Gamer',
-        
         'Programmer'
         ], i = 0;
     setInterval(function(){
@@ -15,4 +14,3 @@
     }, 3000);
       
   })();
-  
