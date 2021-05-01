@@ -216,7 +216,7 @@ button:hover {
     button {
         position: fixed;
         /* Position them relative to the browser window */
-        left: -60px;
+        right: -27px;
         /* Position them outside of the screen */
         transition: 0.7s;
         /* Add transition on hover */
@@ -226,19 +226,17 @@ button:hover {
         color: white;
         border-radius: 0 5px 5px 0;
         /* Rounded corners on the top right and bottom right side */
-        text-align: right;
+        text-align: left;
     }
     i {
         font-size: 12px;
     }
     button:hover {
-        left: 3px;
         /* On mouse-over, make the elements appear as they should */
         color: antiquewhite;
         padding: 15px;
         /* 15px padding */
         font-size: 12px;
-        width: 170px;
         text-align: left;
     }
 }
