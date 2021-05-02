@@ -5,10 +5,13 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    
     line-height: 1.6;
-    background-image: url("/images/background.jpg") ;
-   
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    margin: 0;
+    overflow: hidden !important;
+
 }
 
 a {
@@ -27,7 +30,7 @@ a:hover {
 }
 
 h1 {
-    font-family: "Sacramento", cursive ;
+    font-family: "Sacramento", cursive;
     font-size: 5rem;
     line-height: 0.8;
 }
@@ -35,10 +38,9 @@ h1 {
 h2 {
     font-family: "Sacramento", cursive;
     font-size: 2.5rem;
-    
 }
 
-p{
+p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 }
@@ -47,8 +49,9 @@ p{
 
 .navbar {
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 80px;
+    text-align: right;
 }
 
 .menu {
@@ -57,18 +60,17 @@ p{
 }
 
 .nav-item {
-    
-    position: relative;
-    left: 58%;
     margin-top: 20px;
     margin-left: 50px;
+    
 }
 
-.eye-trcker{
+.eye-trcker {
     text-align: center;
     position: relative;
     margin-top: 0;
-    }
+}
+
 /* End of Header */
 
 /* -------------------Side bar--------------------------- */
@@ -148,15 +150,16 @@ i {
 /* ----------------------Middle  */
 
 .top-para {
+ 
     margin: 20px;
     display: inline-block;
 }
 
-
-
 .container {
-    margin-top: 9rem;
+    text-align: center;
+    margin-top: 4rem;
     margin-left: 30px;
+   width: 100vw;
 }
 
 
@@ -171,16 +174,7 @@ i {
         top: 10px;
         color: aqua;
     }
-    .fixed {
-        position: fixed;
-        left: 42%;
-    }
-    #changingword {
-        color: forestgreen;
-        position: absolute;
-        border-bottom: 4px solid;
-        margin-left: 1rem;
-    }
+  
     a {
         text-decoration: none;
         color: white;
